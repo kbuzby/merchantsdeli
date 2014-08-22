@@ -2,29 +2,32 @@ html {
 	background-color:#FAFAFA;
 }
 
-.navbar {
-	text-align:center;
+.navbar-nav {
+	margin: 0px auto 0px auto;
+	display: table;
+	table-layout:fixed;
+	float:none;
 }
 
-.navbar li {
-	display:inline-block;
-	font-size:2em;
+.navbar-nav li{
 	padding-left:25px;
 	padding-right:25px;
+	font-size:1.5em;
 }
 
-.navbar a:link {
+.navbar-nav li a:link {
 	text-decoration:none;
 	color:black;
 }
 
-.navbar a:visited {
+.navbar-nav li a:visited {
 	text-decoration:none;
 	color:black;
 }
 
-.navbar a:hover {
+.navbar-nav li a:hover {
 	text-decoration:underline;
+	background-color: inherit;
 }
 
 .jumbotron {
@@ -39,14 +42,14 @@ html {
 .jumbotron h1 {
 	text-align:right;
 	font-family:Garamond;
-	font-size:15em;
+	font-size:10em;
 	color:#FAFAFA;
 }
 
 .jumbotron h3 {
 	text-align:right;
 	font-family: Garamond;
-	font-size:7em;
+	font-size:4em;
 	color:#FAFAFA;
 }
 
