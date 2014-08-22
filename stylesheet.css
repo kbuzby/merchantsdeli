@@ -1,0 +1,72 @@
+html {
+	background-color:#FAFAFA;
+}
+
+.navbar {
+	text-align:center;
+}
+
+.navbar li {
+	display:inline-block;
+	font-size:2em;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.navbar a:link {
+	text-decoration:none;
+	color:black;
+}
+
+.navbar a:visited {
+	text-decoration:none;
+	color:black;
+}
+
+.navbar a:hover {
+	text-decoration:underline;
+}
+
+.jumbotron {
+	margin-top:-20px;
+	background:url("r/img/store_front_new.jpg");
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	/*background-attachment:fixed;
+	background-position:0px 0px;*/
+}
+
+.jumbotron h1 {
+	text-align:right;
+	font-family:Garamond;
+	font-size:15em;
+	color:#FAFAFA;
+}
+
+.jumbotron h3 {
+	text-align:right;
+	font-family: Garamond;
+	font-size:7em;
+	color:#FAFAFA;
+}
+
+.stroked {
+	color:gray;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+#footer {
+	background-color:#5CA365;
+}
+
+#footer p {
+	color:#FBFBEC;
+	text-align:right;
+}
+
+
+
