@@ -2,54 +2,55 @@ html {
 	background-color:#FAFAFA;
 }
 
-.navbar-nav {
+.navbar {
 	margin: 0px auto 0px auto;
-	display: table;
+    display: table;
 	table-layout:fixed;
 	float:none;
 }
 
-.navbar-nav li{
+.navbar li{
 	padding-left:25px;
 	padding-right:25px;
 	font-size:1.5em;
+    display: inline;
 }
 
-.navbar-nav li a:link {
+.navbar li a:link {
 	text-decoration:none;
 	color:black;
 }
 
-.navbar-nav li a:visited {
+.navbar li a:visited {
 	text-decoration:none;
 	color:black;
 }
 
-.navbar-nav li a:hover {
+.navbar li a:hover {
 	text-decoration:underline;
 	background-color: inherit;
 }
 
-.jumbotron {
-	margin-top:-20px;
+.header {	
 	background:url("r/img/store_front_new.jpg");
 	background-repeat:no-repeat;
-	background-size:100% auto;
-	/*background-attachment:fixed;
-	background-position:0px 0px;*/
+	background-size:100% 800px;;
+	background-attachment:fixed;
+	background-position:0px 0px;
 }
 
-.jumbotron h1 {
+.header h1 {
 	text-align:right;
+    text-wrap: none;
 	font-family:Garamond;
 	font-size:10em;
 	color:#FAFAFA;
 }
 
-.jumbotron h3 {
+.header h3 {
 	text-align:right;
 	font-family: Garamond;
-	font-size:4em;
+	font-size:3em;
 	color:#FAFAFA;
 }
 
